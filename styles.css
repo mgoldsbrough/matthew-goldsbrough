@@ -77,7 +77,7 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.58fr);
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.44fr);
   gap: clamp(28px, 5vw, 64px);
   align-items: stretch;
   min-height: 680px;
@@ -192,8 +192,8 @@ h1 {
 .portrait {
   position: relative;
   align-self: center;
-  height: min(68vh, 620px);
-  min-height: 480px;
+  height: min(58vh, 520px);
+  min-height: 390px;
   margin: 0;
   overflow: hidden;
   border-radius: 8px;
@@ -387,7 +387,7 @@ h3 {
 
   .portrait {
     height: auto;
-    min-height: 420px;
+    min-height: 340px;
   }
 
   .focus-grid,
@@ -418,7 +418,7 @@ h3 {
   }
 
   .portrait {
-    min-height: 350px;
+    min-height: 300px;
   }
 
   .hero-actions,

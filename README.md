@@ -9,6 +9,10 @@ This repository contains Matthew Goldsbrough's static one-page profile site for 
 - Profile image is loaded from Matthew's public GitHub avatar URL.
 - `.nojekyll`: tells GitHub Pages to serve the static files directly.
 
+## Working Method
+
+Codex should manage the local copy in this folder first. When Matthew is happy with the local version, prompt him to publish it live through GitHub Manager rather than attempting a direct push from this environment.
+
 ## GitHub Pages
 
 The live custom domain is:
