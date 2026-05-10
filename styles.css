@@ -128,21 +128,27 @@ h1 {
 .role-strip {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 10px 14px;
   margin-top: 28px;
 }
 
 .role-strip span {
   display: inline-flex;
   align-items: center;
-  min-height: 38px;
-  padding: 8px 13px;
-  border: 1px solid rgba(36, 75, 61, 0.22);
-  border-radius: 6px;
-  background: rgba(255, 250, 240, 0.74);
-  color: var(--green-dark);
-  font-size: 0.86rem;
+  min-height: auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.84rem;
   font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.role-strip span + span {
+  padding-left: 14px;
+  border-left: 1px solid rgba(23, 24, 25, 0.22);
 }
 
 .hero-actions,
@@ -177,16 +183,6 @@ h1 {
 
 .button.primary:hover {
   background: var(--green-dark);
-}
-
-.button.secondary {
-  background: transparent;
-  color: var(--green);
-}
-
-.button.secondary:hover {
-  border-color: var(--green-dark);
-  color: var(--green-dark);
 }
 
 .portrait {
@@ -344,15 +340,6 @@ h3 {
 
 .contact h2 {
   max-width: 900px;
-}
-
-.contact .button.secondary {
-  border-color: rgba(255, 255, 255, 0.72);
-  color: var(--white);
-}
-
-.contact .button.secondary:hover {
-  border-color: var(--white);
 }
 
 .footer {
