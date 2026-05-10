@@ -17,7 +17,7 @@ Codex should manage the local copy in this folder first. When Matthew is happy w
 
 The live custom domain is:
 
-`https://www.matthewgoldsbrough.com/`
+`https://matthewgoldsbrough.com/`
 
 The GitHub Pages fallback URL is:
 
