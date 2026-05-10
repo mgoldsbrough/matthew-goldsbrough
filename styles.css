@@ -243,16 +243,16 @@ h1 {
 }
 
 .portrait {
-  align-self: center;
+  align-self: end;
+  justify-self: end;
   margin: 0;
 }
 
 .portrait img {
   width: 100%;
-  max-width: min(38vw, 470px);
+  max-width: min(32vw, 390px);
   height: auto;
-  margin-inline: auto;
-  filter: drop-shadow(0 24px 34px rgba(25, 54, 44, 0.16));
+  margin-inline: auto 0;
 }
 
 .intro {
@@ -491,7 +491,7 @@ h3 {
   }
 
   .portrait img {
-    max-width: min(86vw, 360px);
+    max-width: min(76vw, 320px);
   }
 
   .hero-actions,
