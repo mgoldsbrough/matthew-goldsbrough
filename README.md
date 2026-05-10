@@ -6,7 +6,7 @@ This repository contains Matthew Goldsbrough's static one-page profile site for 
 
 - `index.html`: the page content and metadata.
 - `styles.css`: the page styling.
-- Profile image is loaded from Matthew's public GitHub avatar URL.
+- Profile image is loaded from `assets/matthew-goldsbrough-ned-sketch-transparent.png`.
 - `.nojekyll`: tells GitHub Pages to serve the static files directly.
 
 ## Working Method

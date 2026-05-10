@@ -243,23 +243,16 @@ h1 {
 }
 
 .portrait {
-  position: relative;
   align-self: center;
-  height: min(58vh, 520px);
-  min-height: 390px;
   margin: 0;
-  overflow: hidden;
-  border-radius: 8px;
-  border: 1px solid rgba(23, 24, 25, 0.14);
-  background: #2d2d2d;
-  box-shadow: 0 28px 70px rgba(25, 54, 44, 0.18);
 }
 
 .portrait img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 58% 50%;
+  max-width: min(38vw, 470px);
+  height: auto;
+  margin-inline: auto;
+  filter: drop-shadow(0 24px 34px rgba(25, 54, 44, 0.16));
 }
 
 .intro {
@@ -463,8 +456,7 @@ h3 {
   }
 
   .portrait {
-    height: auto;
-    min-height: 340px;
+    justify-self: center;
   }
 
   .focus-grid,
@@ -495,7 +487,11 @@ h3 {
   }
 
   .portrait {
-    min-height: 300px;
+    width: 100%;
+  }
+
+  .portrait img {
+    max-width: min(86vw, 360px);
   }
 
   .hero-actions,
