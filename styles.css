@@ -355,6 +355,12 @@ h3 {
   background: var(--paper);
 }
 
+.writing > p,
+.writing .selected-writing,
+.writing .writing-links {
+  grid-column: 2;
+}
+
 .writing p {
   max-width: 760px;
   margin-top: 0;
@@ -446,6 +452,12 @@ h3 {
   .hero,
   .section {
     grid-template-columns: 1fr;
+  }
+
+  .writing > p,
+  .writing .selected-writing,
+  .writing .writing-links {
+    grid-column: 1;
   }
 
   .hero {
