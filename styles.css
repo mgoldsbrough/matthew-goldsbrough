@@ -321,7 +321,7 @@ h3 {
 
 .focus-grid p,
 .timeline-item p,
-.writing p {
+.writing > p {
   margin: 12px 0 0;
   color: var(--muted);
 }
@@ -368,7 +368,7 @@ h3 {
   grid-column: 2;
 }
 
-.writing p {
+.writing > p {
   max-width: 760px;
   margin-top: 0;
   font-size: 1.18rem;
