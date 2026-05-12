@@ -119,6 +119,7 @@ a[data-tooltip]:focus-visible::before {
 
 .nav {
   display: flex;
+  flex-wrap: wrap;
   gap: clamp(16px, 3vw, 34px);
   color: var(--muted);
   font-size: 0.94rem;
@@ -490,7 +491,7 @@ h3 {
 
   .nav {
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 12px;
   }
 
