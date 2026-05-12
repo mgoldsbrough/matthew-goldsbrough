@@ -243,6 +243,10 @@ h1 {
   background: var(--green-dark);
 }
 
+.contact-actions .button {
+  min-width: 180px;
+}
+
 .portrait {
   align-self: center;
   justify-self: center;
