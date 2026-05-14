@@ -1,6 +1,6 @@
 # Matthew Goldsbrough GitHub Pages Site
 
-This repository contains Matthew Goldsbrough's static one-page profile site for GitHub Pages.
+This repository contains Matthew Goldsbrough's static one-page profile site.
 
 ## Files
 
@@ -10,10 +10,6 @@ This repository contains Matthew Goldsbrough's static one-page profile site for 
 - `sitemap.xml`: lists the canonical profile page for search engines.
 - Profile image is loaded from `assets/matthew-goldsbrough-ned-sketch-transparent-v2.png`.
 - `.nojekyll`: tells GitHub Pages to serve the static files directly.
-
-## Working Method
-
-Codex should manage the local copy in this folder first. When Matthew is happy with the local version, prompt him to publish it live through GitHub Manager rather than attempting a direct push from this environment.
 
 ## GitHub Pages
 
