@@ -1,0 +1,19 @@
+# macOS and editor noise
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Local environment and secrets
+.env
+.env.*
+
+# Logs and temporary output
+*.log
+tmp/
+temp/
+.cache/
