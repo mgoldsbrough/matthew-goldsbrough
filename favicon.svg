@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">Matthew Goldsbrough monogram favicon</title>
-  <desc id="desc">A compact MG monogram in warm ivory on deep green, designed for matthewgoldsbrough.com.</desc>
-  <rect width="512" height="512" rx="96" fill="#244b3d"/>
-  <path fill="#fffaf0" d="M104 350V162h54l98 122 98-122h54v188h-52V238l-86 107h-28l-86-107v112h-52Z"/>
-  <path fill="#fffaf0" d="M302 357c-64 0-109-42-109-101s45-101 111-101c38 0 69 14 90 39l-36 32c-14-15-30-23-52-23-35 0-59 22-59 53 0 32 24 54 60 54 15 0 29-3 41-10v-23h-52v-43h101v91c-24 20-57 32-95 32Z"/>
-  <path fill="#a35d3b" d="M96 396h320v34H96z"/>
+  <title id="title">Matthew Goldsbrough favicon option B</title>
+  <desc id="desc">A bold geometric M on warm ivory with a green field and clay accent.</desc>
+  <rect width="512" height="512" rx="96" fill="#fffaf0"/>
+  <rect x="44" y="44" width="424" height="424" rx="76" fill="#244b3d"/>
+  <path fill="#fffaf0" d="M128 344V168h58l70 94 70-94h58v176h-54V244l-58 78h-32l-58-78v100h-54Z"/>
+  <rect x="160" y="374" width="192" height="24" rx="4" fill="#a35d3b"/>
 </svg>
