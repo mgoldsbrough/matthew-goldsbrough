@@ -1,14 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title>Matthew Goldsbrough</title>
-  <rect width="64" height="64" rx="12" fill="#244b3d"/>
-  <text
-    x="32"
-    y="43"
-    fill="#fffaf0"
-    font-family="Georgia, 'Times New Roman', serif"
-    font-size="29"
-    font-weight="700"
-    letter-spacing="-1"
-    text-anchor="middle"
-  >MG</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Matthew Goldsbrough monogram favicon</title>
+  <desc id="desc">A compact MG monogram in warm ivory on deep green, designed for matthewgoldsbrough.com.</desc>
+  <rect width="512" height="512" rx="96" fill="#244b3d"/>
+  <path fill="#fffaf0" d="M104 350V162h54l98 122 98-122h54v188h-52V238l-86 107h-28l-86-107v112h-52Z"/>
+  <path fill="#fffaf0" d="M302 357c-64 0-109-42-109-101s45-101 111-101c38 0 69 14 90 39l-36 32c-14-15-30-23-52-23-35 0-59 22-59 53 0 32 24 54 60 54 15 0 29-3 41-10v-23h-52v-43h101v91c-24 20-57 32-95 32Z"/>
+  <path fill="#a35d3b" d="M96 396h320v34H96z"/>
 </svg>

@@ -8,6 +8,7 @@
   --green-dark: #19362c;
   --clay: #a35d3b;
   --gold: #b8944f;
+  --blue-slate: #3d6173;
   --white: #ffffff;
   color-scheme: light;
   font-family:
@@ -25,7 +26,9 @@ html {
 
 body {
   margin: 0;
-  background: var(--paper);
+  background:
+    linear-gradient(180deg, rgba(255, 250, 240, 0.6), rgba(247, 242, 232, 0) 320px),
+    var(--paper);
   color: var(--ink);
   font-size: 16px;
   line-height: 1.55;
@@ -108,13 +111,21 @@ a[data-tooltip]:focus-visible::before {
   min-height: 72px;
   padding: 18px clamp(18px, 4vw, 56px);
   border-bottom: 1px solid rgba(23, 24, 25, 0.08);
-  background: rgba(247, 242, 232, 0.92);
+  background: rgba(255, 250, 240, 0.92);
   backdrop-filter: blur(18px);
 }
 
 .wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
   font-weight: 750;
   text-decoration: none;
+}
+
+.wordmark img {
+  width: 34px;
+  height: 34px;
 }
 
 .nav {
@@ -138,8 +149,9 @@ a[data-tooltip]:focus-visible::before {
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.58fr);
   gap: clamp(28px, 5vw, 64px);
   align-items: stretch;
-  min-height: 680px;
+  min-height: 690px;
   padding: clamp(34px, 5vw, 64px) clamp(18px, 4vw, 56px) 34px;
+  border-bottom: 1px solid rgba(36, 75, 61, 0.12);
 }
 
 .hero-copy {
@@ -236,7 +248,7 @@ h1 {
 
 .button.primary {
   background: var(--green);
-  color: var(--white);
+  color: var(--panel);
 }
 
 .button.primary:hover {
@@ -265,8 +277,10 @@ h1 {
 
 .intro {
   padding: clamp(44px, 7vw, 90px) clamp(18px, 9vw, 144px);
-  background: var(--green);
-  color: var(--white);
+  background:
+    linear-gradient(90deg, rgba(25, 54, 44, 0.72), rgba(36, 75, 61, 0)),
+    var(--green);
+  color: var(--panel);
 }
 
 .intro p {
@@ -317,6 +331,12 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
+  box-shadow: 0 18px 48px rgba(25, 54, 44, 0.06);
+}
+
+.focus-grid article:nth-child(2),
+.focus-grid article:nth-child(5) {
+  border-top: 4px solid var(--clay);
 }
 
 .focus-grid p,
@@ -341,7 +361,9 @@ h3 {
 }
 
 .proof {
-  background: #eee7dc;
+  background:
+    linear-gradient(180deg, rgba(184, 148, 79, 0.16), rgba(184, 148, 79, 0.05)),
+    #eee7dc;
 }
 
 .proof-list {
@@ -383,12 +405,12 @@ h3 {
 .selected-writing article {
   position: relative;
   padding: 22px 24px 22px 28px;
-  border-left: 4px solid rgba(184, 148, 79, 0.72);
+  border-left: 4px solid var(--blue-slate);
   background: rgba(255, 250, 240, 0.58);
 }
 
 .selected-writing a {
-  color: var(--green);
+  color: var(--blue-slate);
   font-size: 1.08rem;
   font-weight: 800;
   text-decoration-thickness: 1px;
@@ -416,7 +438,7 @@ h3 {
 
 .text-link {
   display: inline-block;
-  color: var(--green);
+  color: var(--blue-slate);
   font-weight: 800;
   text-underline-offset: 5px;
 }
@@ -427,8 +449,10 @@ h3 {
   justify-content: space-between;
   gap: 32px;
   padding: clamp(44px, 7vw, 86px) clamp(18px, 4vw, 56px);
-  background: var(--ink);
-  color: var(--white);
+  background:
+    linear-gradient(135deg, rgba(61, 97, 115, 0.18), rgba(163, 93, 59, 0.1)),
+    var(--ink);
+  color: var(--panel);
 }
 
 .contact .eyebrow {
