@@ -8,6 +8,7 @@ This repository contains Matthew Goldsbrough's static one-page profile site.
 - `styles.css`: the page styling.
 - `robots.txt`: allows crawling and points crawlers to the sitemap.
 - `sitemap.xml`: lists the canonical profile page for search engines.
+- `downloads/`: unlisted download pages and downloadable PDF assets for direct links from LinkedIn or other public channels.
 - Profile image is loaded from `assets/matthew-goldsbrough-ned-sketch-transparent-v2.png`.
 - `.nojekyll`: tells GitHub Pages to serve the static files directly.
 
