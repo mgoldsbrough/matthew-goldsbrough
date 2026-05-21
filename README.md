@@ -21,3 +21,17 @@ The live custom domain is:
 The GitHub Pages fallback URL is:
 
 `https://mgoldsbrough.github.io/matthew-goldsbrough/`
+
+## Search Console Notes
+
+The canonical public URL is the HTTPS apex domain:
+
+`https://matthewgoldsbrough.com/`
+
+GitHub Pages redirects the non-canonical variants to the apex domain:
+
+- `http://www.matthewgoldsbrough.com/`
+- `http://matthewgoldsbrough.com/`
+- `https://www.matthewgoldsbrough.com/`
+
+Google Search Console may list those variants under "Page with redirect". That is expected and does not need validating as a fix while the sitemap and canonical tags use the HTTPS apex URLs.
