@@ -139,6 +139,7 @@ a[data-tooltip]:focus-visible::before {
 }
 
 .nav a {
+  flex: 0 0 auto;
   text-decoration: none;
 }
 
@@ -620,15 +621,28 @@ h3 {
     font-size: 16px;
   }
 
+  .site-header {
+    padding-inline: 20px;
+  }
+
   .nav {
     width: 100%;
     justify-content: flex-start;
-    gap: 12px;
+    gap: 10px;
+    font-size: 0.86rem;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100vw;
+    padding-inline: 20px;
   }
 
   h1 {
-    max-width: 100%;
-    font-size: clamp(2.1rem, 10vw, 3rem);
+    max-width: 14ch;
+    font-size: clamp(2rem, 9vw, 2.65rem);
   }
 
   .hero-copy,
@@ -636,6 +650,31 @@ h3 {
     width: 100%;
     min-width: 0;
     max-width: 100%;
+  }
+
+  .lede,
+  .role-strip,
+  .hero-actions {
+    max-width: min(100%, calc(100vw - 40px));
+  }
+
+  .eyebrow {
+    max-width: 30ch;
+    letter-spacing: 0.08em;
+  }
+
+  .lede {
+    max-width: 30ch;
+  }
+
+  .role-strip {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .role-strip span + span {
+    padding-left: 0;
+    border-left: 0;
   }
 
   .intro p {
