@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">Matthew Goldsbrough favicon option B</title>
-  <desc id="desc">A bold geometric M on warm ivory with a green field and clay accent.</desc>
-  <rect width="512" height="512" rx="96" fill="#fffaf0"/>
-  <rect x="44" y="44" width="424" height="424" rx="76" fill="#244b3d"/>
-  <path fill="#fffaf0" d="M128 344V168h58l70 94 70-94h58v176h-54V244l-58 78h-32l-58-78v100h-54Z"/>
-  <rect x="160" y="374" width="192" height="24" rx="4" fill="#a35d3b"/>
+  <title id="title">Matthew Goldsbrough favicon</title>
+  <desc id="desc">A simple ivory M in a green circle.</desc>
+  <circle cx="256" cy="256" r="238" fill="#244b3d"/>
+  <path fill="#fffaf0" d="M124 342V170h58l74 94 74-94h58v172h-58V250l-55 69h-38l-55-69v92h-58Z"/>
 </svg>
