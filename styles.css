@@ -154,8 +154,8 @@ a[data-tooltip]:focus-visible::before {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.58fr);
-  gap: clamp(28px, 5vw, 64px);
+  grid-template-columns: minmax(0, 0.86fr) minmax(320px, 0.54fr);
+  gap: clamp(28px, 3.5vw, 48px);
   align-items: stretch;
   min-height: 690px;
   padding: clamp(34px, 5vw, 64px) clamp(18px, 4vw, 56px) 34px;
@@ -277,9 +277,9 @@ h1 {
 
 .portrait {
   align-self: center;
-  justify-self: center;
+  justify-self: start;
   width: 100%;
-  max-width: min(42vw, 560px);
+  max-width: min(36vw, 540px);
   margin: 0;
 }
 
@@ -686,8 +686,15 @@ h3 {
     border-left: 0;
   }
 
+  .intro {
+    padding-inline: 20px;
+  }
+
   .intro p {
-    font-size: clamp(1.35rem, 7vw, 1.85rem);
+    width: 100%;
+    max-width: 32ch;
+    font-size: clamp(1.18rem, 5.3vw, 1.35rem);
+    line-height: 1.24;
   }
 
   .portrait {
@@ -701,7 +708,8 @@ h3 {
   .hero-actions,
   .contact-actions,
   .download-actions {
-    width: 100%;
+    align-self: stretch;
+    width: auto;
   }
 
   .button {
