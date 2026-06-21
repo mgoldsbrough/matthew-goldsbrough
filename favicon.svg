@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">Matthew Goldsbrough favicon</title>
-  <desc id="desc">A simple ivory M in a green circle.</desc>
+  <desc id="desc">A simple white M in a green circle.</desc>
   <circle cx="256" cy="256" r="238" fill="#244b3d"/>
-  <path fill="#fffaf0" d="M124 342V170h58l74 94 74-94h58v172h-58V250l-55 69h-38l-55-69v92h-58Z"/>
+  <path fill="#ffffff" d="M124 342V170h58l74 94 74-94h58v172h-58V250l-55 69h-38l-55-69v92h-58Z"/>
 </svg>
