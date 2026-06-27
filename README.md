@@ -9,7 +9,8 @@ This repository contains Matthew Goldsbrough's static one-page profile site.
 - `robots.txt`: allows crawling and points crawlers to the sitemap.
 - `sitemap.xml`: lists the canonical profile page for search engines.
 - `downloads/`: unlisted download pages and downloadable PDF assets for direct links from LinkedIn or other public channels.
-- `zoom/`: noindex redirect page for `https://matthewgoldsbrough.com/zoom/`, pointing to Matthew's Calendly booking page.
+- `meet/`: noindex embedded Calendly booking page for direct scheduling links.
+- `zoom/`: legacy noindex redirect page for `https://matthewgoldsbrough.com/zoom/`, pointing to `https://matthewgoldsbrough.com/meet/`.
 - Profile image is loaded from `assets/matthew-goldsbrough-ned-sketch-transparent-v3.png`.
 - `.nojekyll`: tells GitHub Pages to serve the static files directly.
 
