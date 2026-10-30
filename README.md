@@ -8,12 +8,13 @@ This repository contains Matthew Goldsbrough's static one-page profile site.
 - `styles.css`: the page styling.
 - `brand-colour-palette.md`: the retained visual palette reference for the site.
 - `robots.txt`: allows crawling and points crawlers to the sitemap.
-- `sitemap.xml`: lists the canonical profile page for search engines.
+- `sitemap.xml`: lists the canonical profile page and its representative headshot for search engines.
 - `downloads/`: unlisted download pages and downloadable PDF assets for direct links from LinkedIn or other public channels.
 - `one-pager/`: no-index one-page profile landing page and stable PDF asset for direct introductions.
 - `meet/`: noindex embedded Calendly booking page for direct scheduling links.
 - `zoom/`: noindex redirect page for `https://matthewgoldsbrough.com/zoom/`, pointing directly to the `1-2-1 with Matthew` Calendly event.
-- Profile image is loaded from `assets/matthew-goldsbrough-ned-sketch-transparent-v3.png`.
+- The visible profile image is loaded from `assets/matthew-goldsbrough-headshot-web.jpg`.
+- Social previews use `assets/matthew-goldsbrough-profile-social-card-2026.png`.
 - `.nojekyll`: tells GitHub Pages to serve the static files directly.
 
 ## GitHub Pages
